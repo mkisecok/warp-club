@@ -12,6 +12,11 @@
      width: 100px;
  }
  
+ div.item:hover {
+     background-color: rgb(54, 51, 51);
+     border-radius: 5%;
+ }
+ 
  nav {
      background-color: gray;
      opacity: 0.8;
