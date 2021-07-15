@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+ body {
+     font-family: "jura", sans-serif;
+ }
+ 
+ div a {
+     text-decoration-line: none;
+     color: white;
+ }
+ 
+ div.item {
+     width: 100px;
+ }
+ 
+ nav {
+     background-color: gray;
+     opacity: 0.8;
+     display: flex;
+     justify-content: space-between;
+     z-index: 10;
+ }
+ 
+ div.left {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ 
+ nav div button {
+     background-color: #f72602;
+     border-radius: 10%;
+     border: 1px solid white;
+ }
+ 
+ .container {
+     display: flex;
+     /* justify-content: flex-start; */
+ }
+ 
+ .container .box {
+     width: 50%;
+     height: 100vh;
+     background-size: cover;
+ }
+ 
+ .box.background {
+     background-image: url(./assets/background.jpg);
+     z-index: -1;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end
+ }
+ 
+ .box.main-image {
+     background-image: url(./assets/main.jpg);
+ }
+ 
+ .schrift {
+     transform: rotate(90deg);
+     width: 100px;
+     height: 50px;
+     color: red;
+     font-size: 3rem;
+     font-weight: bold;
+ }
