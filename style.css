@@ -29,12 +29,14 @@
      display: flex;
      flex-direction: row;
      justify-content: flex-start;
+     margin-left: 10px;
  }
  
  nav div button {
      background-color: #f72602;
-     border-radius: 10%;
+     border-radius: 5%;
      border: 1px solid white;
+     margin-left: 10px;
  }
  
  .container {
@@ -43,17 +45,17 @@
  }
  
  .container .box {
-     width: 50%;
+     width: 50vw;
      height: 100vh;
      background-size: cover;
  }
  
  .box.background {
      background-image: url(./assets/background.jpg);
-     z-index: -1;
+     z-index: -10;
      display: flex;
      justify-content: center;
-     align-items: flex-end
+     align-items: flex-end;
  }
  
  .box.main-image {
