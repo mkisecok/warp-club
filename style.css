@@ -22,13 +22,10 @@
      opacity: 0.8;
      display: flex;
      justify-content: space-between;
-     z-index: 10;
  }
  
  div.left {
      display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
      margin-left: 10px;
  }
  
@@ -41,7 +38,6 @@
  
  .container {
      display: flex;
-     /* justify-content: flex-start; */
  }
  
  .container .box {
@@ -52,21 +48,18 @@
  
  .box.background {
      background-image: url(./assets/background.jpg);
-     z-index: -10;
-     display: flex;
-     justify-content: center;
-     align-items: flex-end;
+     text-align: center;
  }
  
  .box.main-image {
      background-image: url(./assets/main.jpg);
  }
  
- .schrift {
-     transform: rotate(90deg);
-     width: 100px;
-     height: 50px;
+ .background p {
+     writing-mode: vertical-lr;
      color: red;
-     font-size: 3rem;
+     font-size: 4rem;
      font-weight: bold;
+     display: inline;
+     margin-top: 100px;
  }
